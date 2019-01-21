@@ -1,0 +1,199 @@
+#inner .minpai_hover{
+    background: #3a3a3a;
+    color:#ffd100;
+}
+#minpai_container{
+    width:100%;
+}
+#minpai_container .minpai_header{
+    /* display: flex;
+    flex-direction: row; */
+    height:60px;
+    padding-left: 12%;
+    padding-right: 12%
+}
+a{
+    text-decoration: none
+}
+#minpai_container .minpai_header .minpai_header_left{
+    color:gray;
+    line-height: 60px;
+    display: inline;
+}
+#minpai_container .minpai_header .minpai_header_left a{
+    color:#ff6735;
+    font-size: 18px;
+}
+#minpai_container .minpai_header .minpai_header_right .minpai_function{
+    /* font-size: 14px; */
+    color:#ff6735;
+    margin: 0 20px
+}
+#minpai_container .minpai_header .minpai_header_right span{
+    display: inline-block;
+    width:80px;
+    height:47px;
+    background: #ff6735;
+    line-height: 3rem;
+    border-radius: 3%
+} 
+#minpai_container .minpai_header .minpai_header_right .minpai_button{
+    font-size: 16px;
+    color:#fff;
+    padding-left: 6px
+}
+#minpai_container .minpai_1{
+    background-color: #fddc01;
+    padding:100px 10% 120px 7%;
+    color:#fff;
+    zoom: 1;
+    overflow: hidden;
+    /* display: flex; */
+}
+#minpai_container .minpai_1 .mp_box{
+    background:#655800;
+    text-align: center;
+    margin-top:30px;
+    margin-left: 70px;
+    padding:30px 0 60px 0;
+    color:#fff;
+    position: relative;
+    float: left;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-weight: 500
+}
+.mp_yellow{
+    color:#fddc01;
+}
+.p_value{
+    font-size: 35px;
+}
+#minpai_container .mp_box .lqyhq {
+    padding-top: 30px;
+}
+.mp_box .lqyhq a {
+    padding: 10px 30px;
+    border: 5px solid #fff;
+    color: #fff;
+    font-size: 22px;
+}
+#minpai_container .minpai_1 .mp_box p.mp_yellow{
+    padding-top:20px;
+}
+#minpai_container .minpai_1 .mp_img img{
+    max-width: 80%;
+    height:auto;
+}
+#minpai_container .minpai_2{
+    padding:50px 0;
+    zoom:1;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-left:60px;
+    padding-right:60px;
+
+}
+#minpai_container .minpai_2 .minpai_text{
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    width:16%
+}
+#minpai_container .minpai_2 .minpai_text p{
+    color:gray;
+    padding-top: 10px;
+}
+#minpai_container .minpai_img{
+    background-color: #595959;
+    color:#fff;
+    text-align: center
+}
+#minpai_container .minpai_img img{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+#minpai_container .minpai_function h2{
+    background: #dfdfdf;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: #724c28;
+    margin: 0 auto;
+    font-size: 26px;
+}
+#minpai_container .minpai_function{
+    text-align: center;
+}
+#minpai_container .minpai_function img{
+    margin: 0 auto;
+    max-width: 100%;
+    height:auto
+}
+#minpai_container .minpai_shuoming{
+    text-align: center;
+}
+#minpai_container .minpai_shuoming img{
+    max-width: 100%;
+    height:auto
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    #minpai_container .minpai_1{
+        text-align: center
+    }
+    #minpai_container .minpai_1 .mp_box{
+        width:400px;
+        height:220px;
+    }
+    h1{
+        font-size:58px;
+    }
+    #minpai_container .minpai_header .minpai_header_right{
+        line-height: 60px;
+        float:right;
+        color:gray;
+    }
+}
+@media screen and (max-width:767px){
+    #minpai_container .minpai_1{
+        text-align: center
+    }
+    #minpai_container .minpai_1 .mp_box{
+        width:90%;
+        height:220px;
+    }
+    h1{
+        font-size:40px;
+    }
+    #minpai_container .minpai_header .minpai_header_right{
+        display: none
+    }
+}
+@media screen and (min-width:992px){
+    #minpai_container .minpai_1 .mp_img{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 522px;
+        float: left
+    }
+    #minpai_container .minpai_1 .mp_box{
+        width:400px;
+        height:220px;
+    }
+    h1{
+        font-size:58px;
+    }
+    #minpai_container .minpai_header .minpai_header_right{
+        line-height: 60px;
+        float:right;
+        color:gray;
+    }
+    #minpai_container .minpai_function h2{
+        width: 1060px;
+    }
+}
